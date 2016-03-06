@@ -31,7 +31,7 @@ body {
   color: @text-color;
   background-color: @body-bg;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
 
@@ -78,9 +78,10 @@ a.link{
     .tab-focus();
   }
 
-  &:visited {
-    color: #660099;
-  }
+  // &:visited {
+  //   color: @brand-success;
+  //   border-bottom: 1px solid @brand-success-underline;
+  // }
 }
 
 
